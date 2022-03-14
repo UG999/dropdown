@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    max-width: has(xs);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12;
+    max-height: auto;
+}
+
+.label {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    background-color: rgb(55 65 81);
+}
+.relative {
+    position: relative;
+}
+
+.inline {
+    display: inline-block;
+    width: 100%;
+}
+.button {
+    padding-left: 3;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    width: 100%;
+    text-align: left;
+    outline-width: none;
+    
+
+
+}
